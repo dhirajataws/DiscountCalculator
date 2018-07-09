@@ -1,0 +1,30 @@
+{
+  "orderNoDiscountItem": [
+    {
+      "SKU": "atv",
+      "quantity": 3
+    },
+    {
+      "SKU": "ipd",
+      "quantity": 3
+    },
+    {
+      "SKU": "mbp",
+      "quantity": 1
+    }
+  ],
+  "orderAtv": [
+    {
+      "SKU": "atv",
+      "quantity": 3
+    },
+    {
+      "SKU": "atv",
+      "quantity": 1
+    },
+    {
+      "SKU": "atv",
+      "quantity": 1
+    }
+  ]
+}

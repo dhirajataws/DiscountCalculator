@@ -1,0 +1,90 @@
+{
+  "rulesList": [
+    {
+      "header": {
+        "name": "3 for 2 Apple TV",
+        "functionName":"atv_3for2",
+        "priority": 3
+      },
+      "condition": {
+        "sku": "atv",
+        "thresholdValue":3
+      },
+      "action":{
+        "discount":{
+          "type": "percentage",
+          "value": 33.33
+        }
+      }
+    },
+    {
+      "header": {
+        "name": "3 for 2 Apple TV",
+        "functionName":"atv_3for2",
+        "priority": 2
+      },
+      "condition": {
+        "sku": "atv",
+        "thresholdValue":2
+      },
+      "action":{
+        "discount":{
+          "type": "percentage",
+          "value": 20
+        }
+      }
+    },
+    {
+      "header": {
+        "name": "3 for 2 Apple TV",
+        "functionName":"atv_3for2",
+        "priority": 1
+      },
+      "condition": {
+        "sku": "atv",
+        "thresholdValue":1
+      },
+      "action":{
+        "discount":{
+          "type": "percentage",
+          "value": 10
+        }
+      }
+    },
+    {
+      "header": {
+        "name": "SuperIpad",
+        "functionName":"SuperIpad_4",
+        "priority": 1
+      },
+      "condition": {
+        "sku": "ipd",
+        "thresholdValue":4
+      },
+      "action":{
+        "discount":{
+          "type": "flat",
+          "value": 499.99
+        }
+      }
+    },
+    {
+      "header": {
+        "name": "MacBookPro_VGA",
+        "functionName":"MacBookPro_VGA",
+        "priority": 1
+      },
+      "condition": {
+        "sku": "mbp",
+        "thresholdValue":4
+      },
+      "action":{
+        "discount":{
+          "type": "item",
+          "value": "vga"
+        }
+      }
+    }
+  ]
+}
+
